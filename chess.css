@@ -1,0 +1,53 @@
+body {
+	display: inline
+}
+
+div.row
+{
+	clear: both;
+	height: auto;
+}
+
+div.space
+{
+	min-height: 40px;
+	height: 40px;
+	width: 40px;
+	border: 2px;
+	border-style: solid;
+	float: left;
+	text-align: center;
+	vertical-align: middle;
+	display: inline;
+	font-family: Arial;
+	font-weight: bold;
+}
+.board {
+	align-items: center;
+}
+
+div.black
+{
+	background-color: #15a846;
+	
+}
+
+div.white
+{
+	background-color: #ffffff;
+}
+
+div.piece-hover
+{
+	background-color: #15a846;
+}
+
+div.piece-dropped
+{
+	background-color: #ccffff;
+}
+
+.pawnSelect{
+	display: none; 
+	margin-bottom: 5px;
+}
